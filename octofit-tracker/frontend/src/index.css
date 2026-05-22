@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f7fafc;
+  color: #1f2937;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+section {
+  max-width: 680px;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 16px 48px rgba(15, 23, 42, 0.08);
+  padding: 2.5rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: clamp(2rem, 3vw, 3rem);
+}
+
+p {
+  line-height: 1.75;
+}
